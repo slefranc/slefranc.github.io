@@ -1,0 +1,8 @@
+---
+title:  "Population Imaging: Data Sharing"
+image: images/data_sharing.png
+excerpt: "I am in charge of the free project PIWS (developed by NeuroSpin). It allows to assemble and serve the data of major European/international projects in population imaging for big-data analyzes. PIWS relies on CubicWeb, a semantic web software developed by the French company Logilab."
+collection: about
+---
+
+In neurosciences or psychiatry, the emergence of large multi-center population imaging studies raises numerous technological challenges. From distributed data collection, across different institutions and countries, to final data publication service, one must handle the massive, heterogeneous, and complex data from genetics, imaging, demographics, or clinical scores. These data must be both efficiently obtained and downloadable. We present a Python solution, based on the CubicWeb open-source semantic framework, aimed at building population imaging study repositories. In addition, we focus on the tools developed around this framework to overcome the challenges associated with data sharing and collaborative requirements. We describe a set of three highly adaptive web services that transform the CubicWeb framework into a (1) multi-center upload platform, (2) collaborative quality assessment platform, and (3) publication platform endowed with massive-download capabilities. Two major European projects, IMAGEN and EU-AIMS, are currently supported by the described framework. We also present a Python package that enables end users to remotely query neuroimaging, genetics, and clinical data from scripts.
