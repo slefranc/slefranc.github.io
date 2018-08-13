@@ -1,7 +1,7 @@
 ---
 title:  "COSMIC: Compressed Sensing for Magnetic Resonance Imaging & Cosmology"
 image: images/cosmic.jpg
-excerpt: "I am currently in charge with Sam of the development of Python module that binds sparse decomposotion tools from the CosmoStats lab. This module also integrates common optimization tools for image reconstruction/denoising (FISTA, Condat-Vu, ...), and common application plugins."
+excerpt: "I am currently in charge with Sam of pysap, a Python module that binds sparse decomposotion tools. This module also integrates common optimization tools for image reconstruction/denoising (FISTA, Condat-Vu, ...), and common application plugins."
 collection: about
 ---
 
