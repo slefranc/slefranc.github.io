@@ -1,7 +1,7 @@
 ---
 title:  "Population Imaging: Data Sharing"
 image: images/data_sharing.png
-excerpt: "I am in charge of the free project PIWS (developed by NeuroSpin). It allows to assemble and serve the data of major European/international projects in population imaging for big-data analyzes. PIWS relies on CubicWeb, a semantic web software developed by the French company Logilab."
+excerpt: "I am in charge of the PIWS project (developed by NeuroSpin). It allows to assemble and serve the data of major European/international projects in population imaging for big-data analyzes. PIWS relies on CubicWeb, a semantic web software developed by the French company Logilab."
 collection: about
 ---
 
