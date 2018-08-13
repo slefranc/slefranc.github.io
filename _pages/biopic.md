@@ -9,7 +9,7 @@ author_profile: true
 In Brief
 ---
 
-I am a researcher at NeuroSpin CEA-Saclay, France. I have a Ph.D. in the field of medical image processing awarded by University of Strasbourg in 2013. Since 2014 I'm in charge of the Neurospin analysis platform. My interests include computer science, ultra-high field MRI and its application to neuroscience, diffusion MRI, and structural connectivity. I developped Python modules to collect, process and share heterogeneous, and complex data from genetics, imaging, demographics, or clinical scores.
+I am a researcher at NeuroSpin CEA-Saclay, France. I have a Ph.D. in the field of medical image processing awarded by University of Strasbourg in 2013. Since 2014 I'm in charge of the Neurospin analysis platform. My interests include computer science, ultra-high field MRI and its application to neuroscience, diffusion MRI, and structural connectivity. I developped tools (mostly in Python) to collect, process and share heterogeneous, and complex data from genetics, imaging, demographics, or clinical scores.
 
 
 The NeuroSpin Analysis Platform
