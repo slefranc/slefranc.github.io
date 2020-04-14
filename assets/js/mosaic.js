@@ -19,7 +19,7 @@ var items = range(1, 117);
 
 
 $('#photos').append(
-    '<iframe id="frame" width=100% height=100% style="position:absolute;top:0px;z-index:-1"></iframe>');
+    '<iframe id="frame" frameBorder=0 width=100% height=100% style="position:absolute;top:0px;z-index:-1"></iframe>');
 var frame = $('#frame')[0];
 var currentZoom = window.devicePixelRatio;
 $(frame.contentWindow).resize(function() {
