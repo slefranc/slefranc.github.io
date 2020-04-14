@@ -2,5 +2,7 @@
 main:       
   - title: "Biopic"
     url: /biopic/
+  - title: "Gallery"
+    url: /gallery/
 
 
