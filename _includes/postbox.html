@@ -12,6 +12,13 @@
             </p>
         </div>
         <div class="card-read-more">
+            <a href="{{post.url}}"><i class="fa fa-fw fa-expand" aria-hidden="true"></i></a>
+            {% if post.reference %}
+                <a href="{{post.reference}}"><i class="fa fa-fw fa-globe" aria-hidden="true"></i></a>
+            {% endif %}
+            {% if post.code %}
+                <a href="{{post.code}}"><i class="fa fa-fw fa-code-fork" aria-hidden="true"></i></a>
+            {% endif %}
         </div>
     </div>
 </div>
