@@ -13,7 +13,12 @@ $( "article" ).each(function( index ) {
 });
 
 var allImages = "";
-var nb_images = 20;
+if (window.matchMedia("(max-width: 700px)").matches) {
+    var nb_images = 3;
+}
+else {
+    var nb_images = 20;
+}
 var refresh = 1000;
 var items = range(1, 117);
 
@@ -23,7 +28,7 @@ $('#photos').append(
 var frame = $('#frame')[0];
 var currentZoom = window.devicePixelRatio;
 $(frame.contentWindow).resize(function() {
-    console.log('zoom', window.devicePixelRatio);
+    //console.log('zoom', window.devicePixelRatio);
     if (currentZoom != window.devicePixelRatio) {
         window.location.reload(); 
     }
