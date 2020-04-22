@@ -13,14 +13,14 @@ redirect_from:
 <link rel="stylesheet" type="text/css" href="../assets/css/cv.css"/>
 <script src="../assets/js/cv.js"></script>
 
-{% assign resume_sorted = (site.resume | sort: 'timestamp'%}
+{% assign resume_sorted = site.resume | sort: 'timestamp' %}
 {% for item in resume_sorted %}
   {% if item.type == "experience" %}
     {% assign tic = item.timestamp %}
-   {% break %}
+    {% break %}
   {% endif %}
 {% endfor %}
-{% assign resume_sorted = (site.resume | sort: 'timestamp' | reverse %}
+{% assign resume_sorted = site.resume | sort: 'timestamp' | reverse %}
 {% assign today = site.time | date: '%s' %}
 {% assign reference = "01-01-" | append: tic | append: " 00:00:00" %}
 {% assign reference_date =  reference | date: '%s' %}
