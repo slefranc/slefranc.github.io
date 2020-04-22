@@ -1,9 +1,9 @@
 ---
-tag: 2007 - 2009
-name: Image, Medical and Surgical Robotics
-school: University of Strasbourg
-description: Master 'Science and Information Technologies'
-timestamp: 2007
+tag: 2011 - 2012
+name: Sciences Technologie Santé
+school: Université Paris-Est Marne-la-Vallée
+description:
+timestamp: 2011
 type: education
 ---
 

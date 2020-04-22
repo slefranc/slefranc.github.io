@@ -1,8 +1,8 @@
 ---
-tag: 2006 - 2009
-name: Image Capturing and Processing
-school: National School of Higher Education in Physics of Strasbourg
+tag: 2009 - 2012
+name: : bio-imagerie et informatique, bio-mécanique et bio-matériaux, analyse des données
+school: Institut Supérieur des Bio-Sciences de Paris
 description:
-timestamp: 2006
+timestamp: 2009
 type: education
 ---

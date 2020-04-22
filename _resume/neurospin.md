@@ -1,8 +1,9 @@
 ---
-tag: 2013 - Current
+tag: 2015 - 2017
 name: Research-Engineer
 company: CEA/NeuroSpin
-description: Head of the NeuroSpin Analysis Platform.
-timestamp: 2013
+description:
+timestamp: 2015
 type: experience
 ---
+

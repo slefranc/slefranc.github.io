@@ -1,8 +1,8 @@
 ---
-tag: 2009 - 2012
+tag: 2012 - 2015
 name: PHD in Medical Image Capturing and Processing
-school: University of Strasbourg
-description: Statistical approaches for change detection in diffusion images. Application to the longitudinal follow-up of neurodegenerative pathologies.
-timestamp: 2009
+school: CEA/NeuroSpin
+description: Connectivity-based structural parcellation : toward multimodal analysis.
+timestamp: 2012
 type: education
 ---
