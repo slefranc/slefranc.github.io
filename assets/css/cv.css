@@ -1,0 +1,214 @@
+
+@keyframes slideInFromLeft {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes slideInFromRight {
+  0% { transform: translateX(+100%); }
+  100% { transform: translateX(0); }
+}
+
+.pt-page {
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+.pt-page .section-inner {
+  position: relative;
+  padding: 20px 60px 50px;
+}
+
+.no-js .pt-page {
+  position: relative;
+}
+
+.pt-page-content {
+  position: absolute;
+  width: 100%;
+}
+
+.pt-page-current,
+.no-js .pt-page {
+  visibility: visible;
+  z-index: 90;
+  opacity: 1;
+  overflow: hidden;
+  height: 100%;
+  min-height: 100%;
+}
+
+.pt-page.pt-page-current .portfolio-grid {
+  display: block;
+}
+
+.section-title-block {
+  position: relative;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.section-title-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: right;
+}
+
+.section-title {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin: 12px 0 0;
+  font-size: 60px;
+  line-height: 1.1em;
+  color: #eee;
+  z-index: 1;
+}
+
+.section-description {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  color: #fff;
+  background-color: #007bff;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 200;
+  text-align: center;
+  z-index: 2;
+}
+
+.block-title h3 {
+  display: inline-block;
+  position: relative;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.block-title h3:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  left: -10px;
+  bottom: 0;
+  background-color: #007bff;
+}
+
+.timeline {
+  position: relative;
+  border-left: 1px solid #f5f5f5;
+  padding-bottom: 10px;
+}
+  
+.timeline-event {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+  
+.timeline-event:last-child {
+  padding-bottom: 0px;
+}
+
+.timeline-event > * {
+  display: block;
+}
+  
+.event-date {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.1em;
+  margin: 0 0 3px;
+  background-color: #007bff;
+  padding: 5px 8px 5px 20px;
+  margin-left: -20px;
+}
+
+.event-name {
+  margin: 10px 0 0;
+}
+
+.event-description {
+  color: #a5a5a5;
+  margin: 0 0 4px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.45em;
+}
+
+.skills-info {
+  margin-bottom: 30px;
+}
+
+.skills-info h4 { 
+  font-size: 0.8em;
+  line-height: 1.1em;
+  position: relative; 
+  margin: 0 0 5px;
+}
+
+.skill-container {
+  background-color: transparent;
+  border: 1px solid #555;
+  height: 12px;
+  margin-bottom: 12px;
+  width: 100%;
+}
+
+.skill-percentage {
+  background-color: #007bff;
+  border: 1px solid #fff;
+  height: 10px;
+  padding: 0;
+}
+
+@keyframes progressBar20 {
+  0% { width: 0; }
+  100% { width: 20%; }
+}
+.skill-percentage.skill-20 {
+  width: 20%;
+  animation: progressBar20 2s ease-in-out 1s backwards;
+}
+
+@keyframes progressBar40 {
+  0% { width: 0; }
+  100% { width: 40%; }
+}
+.skill-percentage.skill-40 {
+  width: 40%;
+  animation: progressBar40 2s ease-in-out 1s backwards;
+}
+
+@keyframes progressBar60 {
+  0% { width: 0; }
+  100% { width: 60%; }
+}
+.skill-percentage.skill-60 {
+  width: 60%;
+  animation: progressBar60 2s ease-in-out 1s backwards;
+}
+
+@keyframes progressBar80 {
+  0% { width: 0; }
+  100% { width: 80%; }
+}
+.skill-percentage.skill-80 {
+  width: 80%;
+  animation: progressBar80 2s ease-in-out 1s backwards;
+}
+
+@keyframes progressBar100 {
+  0% { width: 0; }
+  100% { width: 100%; }
+}
+.skill-percentage.skill-100 {
+  width: 100%;
+  animation: progressBar100 2s ease-in-out 1s backwards;
+}
+
+
+

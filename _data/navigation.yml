@@ -4,5 +4,7 @@ main:
     url: /biopic/
   - title: "Gallery"
     url: /gallery/
+  - title: "Resume"
+    url: /cv/
 
 

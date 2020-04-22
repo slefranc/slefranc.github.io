@@ -173,6 +173,7 @@ collections:
   about:
     output: true
     permalink: /:collection/:path/
+  resume:
 
 
 # Defaults
