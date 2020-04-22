@@ -7,11 +7,11 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Antoine Grigis"
+title                    : "Sandrine Lefranc"
 title_separator          : "-"
-name                     : &name "Grigis"
+name                     : &name "Lefranc"
 description              : &description "personal description"
-url                      : https://agrigis.github.io #http://localhost:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://slefranc.github.io #http://localhost:4000 # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "AGrigis/academicpages.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -79,21 +79,21 @@ analytics:
 
 # Site Author
 author:
-  name             : "Grigis Antoine"
+  name             : "Lefranc SAndrine"
   avatar           : "profile.jpg"
-  bio              : "Head of the NeuroSpin Analysis Platform"
-  location         : "CEA, Neurospin, France"
+  bio              : "Software Architecte"
+  location         : "GreenTropism, France"
   employer         : 
-  googlescholar    : "https://scholar.google.fr/citations?hl=en&user=nDapWF8AAAAJ&view_op=list_works&gmla=AJsN-F7QMoVhJ76Nc9HgP1eUAOwvidfpV3e5V9t8XOQUE0xmI9kkjDi_Xh6-TxG5vsnYcCF-OgmuhlGpkQucR0i6z--d4DKO7u8_H1aO6CmD8OO3wqKtCN0"
+  googlescholar    :
   email            :
-  uri              : "http://antoine.grigis.free.fr"
+  uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "AGrigis"
+  github           : "slefranc"
   google_plus      :
   keybase          :
   instagram        :
@@ -170,9 +170,6 @@ kramdown:
 
 # Collections
 collections:
-  about:
-    output: true
-    permalink: /:collection/:path/
   resume:
 
 

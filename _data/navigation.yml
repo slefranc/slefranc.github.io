@@ -1,10 +1,4 @@
 # main links links
-main:       
-  - title: "Biopic"
-    url: /biopic/
-  - title: "Gallery"
-    url: /gallery/
-  - title: "Resume"
-    url: /resume/
+main:
 
 
